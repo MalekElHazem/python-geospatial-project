@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Horizontal Inner Surface",
+        "surface_type": "horizontal",
+        "surface_category": "inner_horizontal",
+        "height": 45,
+        "elevation": 45,
+        "base_elevation": 0,
+        "airport": "Tunis-Carthage International Airport",
+        "airport_code": "DTTA",
+        "icao_code": "DTTA",
+        "iata_code": "TUN",
+        "icao_reference": "ICAO Annex 14 Volume I",
+        "regulation": "ICAO Annex 14",
+        "radius_km": 4.0,
+        "radius_m": 4000,
+        "area_km2": 50.27,
+        "area_m2": 50265482.0,
+        "perimeter_km": 25.13,
+        "perimeter_m": 25133.0,
+        "center_longitude": 10.227578,
+        "center_latitude": 36.853163,
+        "purpose": "Obstacle limitation for aviation safety",
+        "description": "Inner horizontal surface providing obstacle clearance around the airport",
+        "generated_date": "2025-06-25",
+        "coordinate_system": "WGS84",
+        "height_reference": "Above Mean Sea Level (AMSL)",
+        "source": "Enhanced DXF conversion with geographic coordinates"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.22349503052104,
+              36.83911888641978
+            ],
+            [
+              10.231168070803783,
+              36.867294668605965
+            ],
+            [
+              10.231661197206893,
+              36.867207937151505
+            ],
+            [
+              10.223987986407254,
+              36.839032189577786
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
